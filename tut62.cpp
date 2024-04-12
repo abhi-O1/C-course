@@ -11,7 +11,7 @@ int main(){
     cout<< "Enter the operation : " " ";
     cin>>oper;
     switch(oper){
-        case '+' : cout<< A+B <<endl;
+        case '+' : cout<< (A+B) <<endl;
         break;
         case '-' : cout<< (A-B) <<endl;
         break;

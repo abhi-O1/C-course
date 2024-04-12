@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std ;
 
- int power(int a , int b ){
+ int power(int  num1 , int num2 ){
     int ans = 1 ;
-    for(int i = 1 ; i<=b ; i++){
-        ans = ans * a ; 
+    for(int i = 1 ; i<=num2 ; i++){
+        ans = ans * num1 ; 
     }
      return ans ; 
  }
